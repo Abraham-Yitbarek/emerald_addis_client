@@ -1,0 +1,4 @@
+@keyframes ea-rotate { to { transform:rotate(360deg); } }
+@keyframes ea-shimmer { to { background-position:-200% 0; } }
+.ea-site a:focus-visible,.ea-site button:focus-visible,.ea-site input:focus-visible,.ea-site textarea:focus-visible,.ea-site select:focus-visible { outline:2px solid #7c9d80; outline-offset:3px; }
+@media(prefers-reduced-motion:reduce) { .ea-site *, .ea-site *::before, .ea-site *::after { animation-duration:.01ms !important; transition-duration:.01ms !important; scroll-behavior:auto !important; } }
